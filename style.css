@@ -1,0 +1,66 @@
+body {
+  background-color: #ecf2f8;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 540px 255px 255px; /* Define column widths */
+  gap: 20px; /* Space between items */
+}
+
+.item-1 {
+  background-color: #733fc8; /* Purple background */
+  width: 540px; /* Set width */
+  height: 282px; /* Set height */
+  border-radius: 8px 0 0 0; /* Rounded corners */
+  opacity: 1; /* Set opacity to 1 for visibility */
+  grid-column: 1; /* First column */
+  grid-row: 1; /* First row */
+}
+
+.item-2 {
+  background-color: #48556a; /* Dark blue background */
+  width: 255px; /* Set width */
+  height: 282px; /* Set height */
+  border-radius: 8px 0 0 0; /* Rounded corners */
+  opacity: 1; /* Set opacity to 1 for visibility */
+  grid-column: 2; /* Second column */
+  grid-row: 1; /* First row */
+}
+
+.item-3 {
+  background-color: white; /* White background */
+  width: 255px; /* Set width */
+  height: 266px; /* Set height */
+  opacity: 1; /* Set opacity to 1 for visibility */
+  grid-column: 1; /* First column */
+  grid-row: 2; /* Second row */
+}
+
+.item-4 {
+  background-color: #19202d; /* Dark background */
+  width: 540px;
+  height: 266px;
+
+  border-radius: 8px 0 0 0; /* Rounded corners */
+  opacity: 1; /* Set opacity to 1 for visibility */
+  /* grid-column: 2; 
+  grid-row: 2; */
+  margin-left: -18rem;
+}
+
+.item-5 {
+  background-color: white; /* White background */
+  width: 255px; /* Set width */
+  height: 572px; /* Set height */
+  border-radius: 8px 0 0 0; /* Rounded corners */
+  opacity: 1; /* Set opacity to 1 for visibility */
+  grid-column: 3; /* Third column */
+  grid-row: 1 / span 2; /* Span two rows */
+}
+h1 {
+  font-size: 20px;
+}
+p {
+  font-size: 13px;
+}
